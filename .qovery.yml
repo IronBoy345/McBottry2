@@ -1,0 +1,11 @@
+---
+application:
+  name: "abcdefgh"
+  project: "last hope"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-abcdefgh"
+  routes:
+  - application_name: "abcdefgh"
+    paths:
+    - "/*"
