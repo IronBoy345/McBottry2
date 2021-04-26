@@ -28,9 +28,9 @@ bot.loadPlugin(cmd)
 
 
 bot.on('login',function(){
-	console.log("Logged In");
-        bot.chat("/pl register sussex");
-	bot.chat("/pl login sussex");
+	console.log("Logged In")
+        bot.chat("/pl register sussex")
+	bot.chat("/pl login sussex")
         
 });
 
